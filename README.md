@@ -5,9 +5,9 @@
 A database management system designed to simplify the submission, assignment, tracking, and resolution of maintenance requests. This system is tailored for industries like real estate, educational institutions, and facilities management to improve operational efficiency and transparency.
 
 # Objectives
-Streamline the handling of maintenance requests to ensure prompt resolution.
-Provide reporting and analysis tools to help decision-making and enhance user satisfaction.
-Promote collaboration between tenants, property managers, and maintenance teams.
+- Streamline the handling of maintenance requests to ensure prompt resolution.
+- Provide reporting and analysis tools to help decision-making and enhance user satisfaction.
+- Promote collaboration between tenants, property managers, and maintenance teams.
 
 # Key Features
 Role-Based Access: Separate functionalities for tenants, property managers, and technicians.
