@@ -10,19 +10,19 @@ A database management system designed to simplify the submission, assignment, tr
 - Promote collaboration between tenants, property managers, and maintenance teams.
 
 # Key Features
-Role-Based Access: Separate functionalities for tenants, property managers, and technicians.
-Real-Time Tracking: Status updates for maintenance requests with detailed logs.
-Reporting and Analysis: Generate insights on request trends, team performance, and efficiency.
-User-Friendly Interface: Simple workflows for request submissions and tracking.
+- Role-Based Access: Separate functionalities for tenants, property managers, and technicians.
+- Real-Time Tracking: Status updates for maintenance requests with detailed logs.
+- Reporting and Analysis: Generate insights on request trends, team performance, and efficiency.
+- User-Friendly Interface: Simple workflows for request submissions and tracking.
 
 # Entities and Relationships
-Property Management: Tracks properties and their managers.
-Users: Maintains tenant details, including property associations.
-Maintenance Requests: Logs maintenance issues and tracks their lifecycle.
-Maintenance Teams: Manages teams assigned to resolve specific issues.
-Categories: Defines types of issues and their priorities.
-Technicians: Maintains details of team members and their roles.
-Logs: Captures all actions and updates on requests for audit purposes.
+- Property Management: Tracks properties and their managers.
+- Users: Maintains tenant details, including property associations.
+- Maintenance Requests: Logs maintenance issues and tracks their lifecycle.
+- Maintenance Teams: Manages teams assigned to resolve specific issues.
+- Categories: Defines types of issues and their priorities.
+- Technicians: Maintains details of team members and their roles.
+- Logs: Captures all actions and updates on requests for audit purposes.
 
 # ER Diagram
 
@@ -30,17 +30,17 @@ Logs: Captures all actions and updates on requests for audit purposes.
 
 # Technologies Used
 
-Database: MySQL
-Programming: SQL, Python
-Tools: SQL queries for insights and reporting
-Concepts: Entity-Relationship Modeling, Triggers, Stored Procedures
+- Database: MySQL
+- Programming: SQL, Python
+- Tools: SQL queries for insights and reporting
+- Concepts: Entity-Relationship Modeling, Triggers, Stored Procedures
 
 # SQL Features
-Triggers for logging changes to request statuses.
-Reports on:
-Total requests by property and category.
-Status breakdown (Open, In Progress, Completed).
-Top properties and users by number of requests.
+- Triggers for logging changes to request statuses.
+- Reports on:
+    - Total requests by property and category.
+    - Status breakdown (Open, In Progress, Completed).
+    - Top properties and users by number of requests.
 
 # Sample SQL Query
 Example: Requests by Property and Category
@@ -63,7 +63,7 @@ ORDER BY
     pm.PropertyName, c.CategoryName;
 
 # Results
-Enhanced visibility into maintenance operations.
-Improved tracking and resolution times for requests.
-Actionable insights into resource allocation and efficiency.
+- Enhanced visibility into maintenance operations.
+- Improved tracking and resolution times for requests.
+- Actionable insights into resource allocation and efficiency.
 
